@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>About</title>
+    <title>Streams</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400,700%7COpen+Sans:400,600,700%7CSource+Code+Pro:300,400,500,600,700,900%7CNothing+You+Could+Do%7CPoppins:400,500">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nothing+You+Could+Do&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500&family=Source+Code+Pro:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
@@ -88,10 +89,10 @@
                   <h2 class="box-about-mega-title">dj fox</h2>
                   <h2 class="box-about-title">about me</h2>
                 </div>
-                <h4 class="box-about-post-title">How it All Began</h4>
-                <p>I have been involved in music since I remember myself as my parents were rock musicians. After discovering House and Dubstep in 2008, I realized what my future should be connected with.</p>
-                <p>I took my current alias DJ Fox when I signed my first release in June 2010. Since then, I’ve been experimenting a lot with many genres of bass music and EDM until I’ve found the style I really like - Bass House. I started DJing in 2012 when I was invited to a local EDM festival. In my sets I combine Dubstep and Bass House with Drum & Bass while also doing occasional vocals in the studio.</p><a class="button button-primary" href="#">View My Albums</a>
-              </div>
+               <twitch-stream channel="ESL_SC2" chat muted></twitch-stream>
+
+
+      <!--<div id="aussie"></div>-->
             </div>
           </div>
         </div>
@@ -503,5 +504,17 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/twitch-stream-embed"></script>
+  <!--<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+    <script type="text/javascript">
+      var options = {
+        width: 400,
+        height: 300,
+        channel: "aussiedemonx",
+        parent: ["gunnydev.github.io"]
+      };
+      var player = new Twitch.Player("aussie", options);
+      player.setVolume(0.5);
+    </script>-->
   </body>
 </html>
