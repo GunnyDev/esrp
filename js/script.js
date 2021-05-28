@@ -15,7 +15,7 @@
 		isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent),
 		windowReady = false,
 		isNoviBuilder = false,
-		livedemo = true,
+		livedemo = false,
 
 		plugins = {
 			bootstrapTooltip:        $( '[data-toggle="tooltip"]' ),
