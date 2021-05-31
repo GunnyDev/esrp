@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   </head>
   <body>
@@ -68,25 +69,53 @@
         </div>
       </header>
       <!--Swiper-->
-      <section class="section swiper-container swiper-slider swiper-slider-1" data-loop="false" data-autoplay="3892" data-simulate-touch="false">
+      <section class="section swiper-container swiper-slider swiper-slider-1">
         <div class="swiper-wrapper text-center">
           <div class="swiper-slide context-dark" data-slide-bg="images/bgtop.jpg">
             <div class="swiper-slide-caption section-md">
               <div class="container">
                 <div class="row justify-content-lg-center">
-                  <div class="col-lg-8">
-                    <h1 data-caption-animate="fadeInUp" data-caption-delay="200">ESRP MERCH</h1>
-                     <div class="button-wrap" data-caption-animate="fadeInUp" data-caption-delay="300"><a class="button button-modern button-custom-size-1" href="https://streamlabs.com/itsmegeordie/merch" target="_blank">Buy Here</a></div>
-					           <div class="row row-75 flex-lg-row-reverse">
-            <div class="col-lg-6 text-center">
+                  <div class="col-lg-12">
+                    <h1>ESRP MERCH</h1>
+                     
+					           <div class="row flex-lg-row-reverse">
+           <!-- <div class="col-lg-6 text-center">
               <div class="box-image-2"><img src="images/merch1.png" alt="" width="350" height="175"/>
               </div>
             </div>
 			            <div class="col-lg-6 text-center">
               <div class="box-image-2"><img src="images/merch2.png" alt="" width="350" height="175"/>
               </div>
+            </div>-->
+
+            <div id="secondary-slider" class="splide col-lg-12 text-center">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide box-image-2">
+                    <img src="images/merch1.png" width="428" height="215">
+                  </li>
+                  <li class="splide__slide box-image-2">
+                    <img src="images/merch2.png">
+                  </li>
+                  <li class="splide__slide box-image-2">
+                    <img src="images/merch3.png">
+                  </li>
+                  <li class="splide__slide box-image-2">
+                    <img src="images/merch4.png">
+                  </li>
+                  <li class="splide__slide box-image-2">
+                    <img src="images/merch5.png">
+                  </li>
+                </ul>
+              </div>
+              <div class="splide__progress">
+                <div class="splide__progress__bar">
+                </div>
+              </div>
             </div>
+            
                   </div>
+                  <div class="button-wrap"><a class="button button-modern button-custom-size-1" href="https://streamlabs.com/itsmegeordie/merch" target="_blank">Buy Here</a></div>
                 </div>
               </div>
             </div>
@@ -118,8 +147,8 @@
             </div>
           </div>
         </div>-->
-        <!--Swiper Pagination-->
-        <div class="swiper-pagination"></div>
+        <!--Swiper Pagination
+        <div class="swiper-pagination"></div>-->
       </section>
 
       <section class="section" data-lightgallery="group">
@@ -266,5 +295,7 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="js/splide.js"></script>
   </body>
 </html>
